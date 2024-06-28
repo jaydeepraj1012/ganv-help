@@ -1,0 +1,85 @@
+#login{margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 20px;
+    height: 34rem;
+    width: 34rem; 
+    background-color: hsl(0, 0%, 30%);
+}
+body{margin: 0px;
+    /* display: block; */
+    height: 100vh;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(183, 184, 187);
+}
+#login input{width: 85%;
+    height: 30px;
+    color: white;
+    padding: 5px;
+    margin: 20px;
+    font-size: 1.62rem;
+    background-color: hsl(0, 0%, 30%);
+    box-shadow: 0px 2px  rgb(233, 227, 227);
+    border: none;
+    font-weight: bold;
+
+
+}
+#login input:focus{
+   border: 2px solid;
+   box-shadow: none;
+    background-color: hsl(0, 0%, 20%);
+    
+
+
+}
+#login h1{margin-bottom: 20px;
+    font-size: 2.4rem;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#login button{
+    width: 35%;
+    margin-left: 210px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: hsl(39, 100%, 50%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px;
+    cursor: pointer;
+}
+#login button:hover{
+    background-color: hsl(39, 100%, 60%);
+}
+#login button:active{
+    background-color: hsl(39, 100%, 70%);
+}
+@media screen and (max-width:618px) {#login{width: 20rem;
+    height: 25rem;
+}
+#login button{
+    width: 25%;
+    margin-left: 200px;
+    height: 30px;
+}
+#login h1{margin-bottom: 20px;
+    font-size: 2.1rem;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#login input{width: 85%;
+    height: 30px;
+   font-weight: bold;
+    font-size: 1.32rem;
+
+
+
+}
+}
